@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CSF1_Homework.ATM_App</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ATM_App.cs" />
+    <Compile Include="FruitLoop.cs" />
+    <Compile Include="GradesLoop.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="MadLibs.cs" />
+    <Compile Include="Powers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TempConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

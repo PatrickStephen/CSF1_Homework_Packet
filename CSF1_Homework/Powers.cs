@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSF1_Homework
 {
-    class Program
+    class Powers
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
